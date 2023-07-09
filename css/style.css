@@ -1,0 +1,514 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box ;
+	list-style: none;
+
+}
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/* font-family need to be change ------------ */
+}
+/* COLOR
+-------------------------------------------------- */
+.nav-link-lindustreet,.headerCategory ,
+.headerCategoryCatchPhrase,
+.headerCourseElectricity .returnIndexCategory,
+.returnIndexCategory:hover,
+.sectionCourse, footer i,
+.categoryElectricity,
+.courseElectricity .endCourse a{
+    color: #060A78 !important;
+}
+.navLiElectricity:hover,
+.electricityIndex i,
+.glossaryElectricityIndex{
+	color:#F9F871 !important;
+}
+.navLiMeca:hover,
+.mecaIndex i,
+.glossaryMecaIndex{
+	color:#BD0072 !important;
+}
+.navLiGestion:hover,
+.gestionIndex i, 
+.glossaryGestionIndex{
+	color: #F86B4B !important;
+}
+.navLiPneu:hover, 
+.pneuIndex i, 
+.glossaryPneuIndex{
+	color: #FFB347 !important;
+}
+.navLiAutomate:hover, 
+.automateIndex i,
+footer i:hover, 
+.glossaryAutomateIndex { 
+	color: #00E1BF !important;
+}
+.navLiRepair:hover, 
+.repairIndex i{
+	color: #A4000F !important;
+}
+.listCourseContainer a{
+	color:#000 !important;
+}
+.listCourseContainer a:hover i,
+.headerCourseElectricity, 
+.headerCourseMeca, 
+.headerCourseGestion, 
+.headerCoursePneu, 
+.headerCourseAutomate, 
+.headerCourseRepair, 
+.returnIndexCategory,
+.headerCourseElectricity 
+.returnIndexCategory:hover, 
+.headerIndex ,.categoryMeca, 
+.categoryGestion, .categoryPneu, 
+.categoryAutomate,.categoryRepair,
+.courseMeca .endCourse a,
+.coursePneu .endCourse a, 
+.courseGestion .endCourse a,
+.courseAutomate .endCourse a,
+.courseRepair .endCourse a
+{
+	color:#FFF !important;
+}
+.electricityIndex .dateCourse,
+.listCourseContainer a:hover .electricityIndex,
+.categoryElectricity:hover ,
+.glossaryElectricityIndex:hover, 
+.symboleElectricity .symboleTitle, 
+.courseElectricity .endCourse a:hover{
+	color:#79791d !important;
+}
+.mecaIndex .dateCourse,
+.listCourseContainer a:hover .mecaIndex ,
+.categoryMeca:hover, 
+.symboleMeca .symboleTitle, 
+.glossaryMecaIndex:hover,
+.courseMeca .endCourse a:hover{
+	color:#520031 !important;
+}
+.gestionIndex .dateCourse,
+.listCourseContainer a:hover .gestionIndex, 
+.categoryGestion:hover ,
+.symboleGestion .symboleTitle, 
+.glossaryGestionIndex:hover,
+.courseGestion .endCourse a:hover{
+	color:#7e3727 !important;
+}
+.pneuIndex .dateCourse, 
+.listCourseContainer a:hover .pneuIndex ,
+.categoryPneu:hover,
+.symbolePneu .symboleTitle,
+.glossaryPneuIndex:hover,
+.coursePneu .endCourse a:hover {
+	color:#7a5624 !important;
+}
+.automateIndex .dateCourse,
+.listCourseContainer a:hover .automateIndex , 
+.categoryAutomate:hover, 
+.symboleAutomate .symboleTitle,
+.glossaryAutomateIndex:hover,
+.courseAutomate .endCourse a:hover{
+	color:#004e43 !important;
+}
+.repairIndex .dateCourse, 
+.listCourseContainer a:hover .repairIndex ,
+.categoryRepair:hover, 
+.symboleRepair .symboleTitle ,
+.courseRepair .endCourse a:hover{
+	color:#3a0106 !important;
+}
+
+/* BACKGROUND-COLOR
+-------------------------------------------------- */
+.navbar-toggler, .headerIndex{
+	background-color: #060A78;
+}
+.electricityIndex .dateCourse,
+.listCourseContainer a:hover .electricityIndex ,
+.headerCourseElectricity,
+.categoryElectricity, 
+.glossaryElectricityIndex:hover,
+.courseElectricity .endCourse a{
+	background-color: #F9F871;
+}
+.mecaIndex .dateCourse,
+.listCourseContainer a:hover .mecaIndex,
+.headerCourseMeca,.categoryMeca , 
+.glossaryMecaIndex:hover ,
+.courseMeca .endCourse a{
+	background-color: #BD0072;
+}
+.gestionIndex .dateCourse,
+.listCourseContainer a:hover .gestionIndex, 
+.headerCourseGestion ,.categoryGestion, 
+.glossaryGestionIndex:hover,
+.courseGestion .endCourse a{
+	background-color: #F86B4B;
+}
+.pneuIndex .dateCourse, 
+.listCourseContainer a:hover .pneuIndex, 
+.headerCoursePneu ,.categoryPneu, 
+.glossaryPneuIndex:hover,
+.coursePneu .endCourse a{
+	background-color: #FFB347;
+}
+.automateIndex .dateCourse,
+.listCourseContainer a:hover .automateIndex, 
+.headerCourseAutomate ,
+.categoryAutomate,
+.glossaryAutomateIndex:hover,
+.courseAutomate .endCourse a{
+	background-color: #00E1BF;
+}
+.repairIndex .dateCourse,
+.listCourseContainer a:hover .repairIndex,
+.headerCourseRepair, .categoryRepair,
+.courseRepair .endCourse a{
+	background-color: #A4000F;
+}
+.glossaryElectricityIndex{ 
+	background-color:#79791d ;
+}
+.glossaryAutomateIndex{
+	background-color: #004e43;
+}
+.glossaryMecaIndex{ 
+	background-color: #520031;
+}
+.glossaryGestionIndex{ 
+	background-color: #7e3727;
+}
+.glossaryPneuIndex{ 
+	background-color: #7a5624 ;
+}
+/*NAVBAR
+-------------------------------------------------- */
+.navbar-light .navbar-toggler {
+	border-color:rgba(255, 255, 255, .5);
+}
+.navbar-light .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.nav-link-lindustreet:hover{
+    transition:.5s ;
+}
+
+/*INDEX 
+-------------------------------------------------- */
+.headerIndex{
+	padding-top: 20vh;
+	min-height:60vh;
+}
+.titleIndex{
+    font-family: 'Teko', sans-serif;
+}
+.indexHeaderLeft{
+    margin-bottom: 50px;
+}
+/*INDEX CATEGORY (LIST OF COURSE)
+-------------------------------------------------- */
+.headerCategory{
+	font-size:12px;
+	font-weight: 500;
+	padding-top: 20vh;
+	
+}
+.headerCategoryCatchPhrase{
+	font-size:17px;
+	font-weight: 750;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.headerCategory , .headerCategoryCatchPhrase{
+	text-transform: uppercase;
+}
+
+.listCourseContainer a{
+	text-decoration: none;
+}
+.courseContainer{
+	min-height:20vh;
+	max-width:850px;
+	margin:0 auto;
+}
+.courseLinkContainer{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	min-height:20vh;
+	max-width:850px;
+	margin:0 auto;
+	margin-bottom: 20px;
+	padding:3vh ;
+}
+.dateCourse{
+	height:25px;
+	width:85px;
+	font-size: 14px;
+}
+.courseTitle{
+	font-weight:600;
+}
+.courseType{
+	font-size: 13px;
+}
+.listCourseLogo{
+	display: none;
+	font-size: 40px;
+}
+.electricityIndex .dateCourse, .mecaIndex .dateCourse, .gestionIndex .dateCourse, .pneuIndex .dateCourse, .automateIndex .dateCourse,.RepairIndex .dateCourse{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.courseCategories a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.categoryElectricity, .categoryMeca, .categoryGestion, .categoryPneu ,.categoryAutomate,.categoryRepair{
+	min-height: 14vh;
+	font-size: 20px;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+.categoryElectricity:hover{
+	border: 2px solid #79791d !important;
+}
+.categoryMeca:hover{
+	border: 2px solid #520031 !important;
+}
+.categoryGestion:hover{
+	border: 2px solid #7e3727 !important;
+}
+.categoryPneu:hover{
+	border: 2px solid #7a5624 !important;
+}
+.categoryAutomate:hover{
+	border: 2px solid #004e43 !important;
+}
+.categoryRepair:hover{
+	border: 2px solid #3a0106 !important;
+}
+
+/*COURSE
+-------------------------------------------------- */
+.headerCourseElectricity, .headerCourseMeca, .headerCourseGestion, .headerCoursePneu, .headerCourseAutomate, .headerCourseRepair {
+	padding-top: 20vh;
+	padding-left: 5vw;
+	min-height:50vh;
+}
+.returnIndexCategory{
+	text-decoration: none;
+}
+.returnIndexCategory:hover{
+	cursor:pointer;
+}
+.courseName{
+	margin-top: 30px;
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.courseElectricity, .courseMeca, .coursePneu, .courseGestion , .courseAutomate , .courseRepair{
+	margin-bottom: 60px;
+}
+.sectionCourse{
+	padding-top:15px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.descriptionText{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	font-size: 15px;
+	font-weight: 400;
+	
+}
+.descriptionPoint{
+	margin-left:5px;
+	width:20px;
+	background-color: pink;
+}
+.descriptionText, .descriptionPoint {
+	padding-bottom: 8px !important;
+}
+.circleBase {
+	border-radius: 50%;
+} 
+.circle1 {
+	width: 8px;
+	height: 8px;	
+	display: inline-block;
+	margin-right:5px;
+}
+.endCourse a{
+    display:block;
+    text-align:center;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom:40px;
+    padding:15px 5px;
+	text-transform: uppercase;
+    max-width: 500px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size: 16px;
+	font-weight:500;
+}
+.courseElectricity .endCourse a:hover,
+.courseMeca .endCourse a:hover,
+.coursePneu .endCourse a:hover,
+.courseGestion .endCourse a:hover,
+.courseAutomate .endCourse a:hover,
+.courseRepair .endCourse a:hover{
+   box-shadow: rgba(99, 99, 99, 0.4) 2px 4px 10px 2px;
+}
+
+/*COURSE SVG BACKGROUND*/
+.courseElectricity .circle1{
+	background: #F9F871;
+}
+.courseMeca .circle1{
+	background: #BD0072;
+}
+.coursePneu .circle1{
+	background: #FFB347;
+}  
+.courseGestion .circle1{
+	background: #F86B4B;
+}
+.courseAutomate .circle1{
+	background: #00E1BF;
+}
+.courseRepair .circle1{
+	background: #A4000F;
+}
+
+/*GLOSSARY SYMBOLE
+-------------------------------------------------- */
+.containerGlossary img{
+	width:100%;
+}
+.symboleContainer{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	max-width: 900px;
+	margin:0 auto;
+}
+.symboleContainerImage{ 
+	text-align: center;
+	padding: 2rem;
+	display:none
+}
+.symboleContainerInfo{
+	padding-top:15px;
+	padding-bottom: 20px;
+}
+
+.symboleImage{
+	max-width:200px;
+	max-height: 200px;	
+}
+.symboleElectricity .symboleImage{
+	border: 2px solid #F9F871;
+}
+.symboleMeca .symboleImage{
+	border: 2px solid #BD0072;
+}
+.symboleGestion .symboleImage{
+	border: 2px solid #F86B4B;
+}
+.symbolePneu .symboleImage{
+	border: 2px solid #FFB347;
+}
+.symboleAutomate .symboleImage{
+	border: 2px solid #00E1BF;
+}
+.symboleRepair .symboleImage{
+	border: 2px solid #A4000F;
+}
+.symboleTitle{ 
+	padding:2vh;
+	font-size: 25px;
+	text-align: center;
+}
+.symboleDescription{ 
+	padding:2vh;
+	padding-top:5px;
+}
+/*FOOTER
+-------------------------------------------------- */
+footer i{
+	font-size: 24px;
+}
+footer i:hover{
+	transition: .5s;
+}
+.logo-total-footer{
+	padding-bottom: 40px;
+}
+
+/*MEDIA QUERIES
+-------------------------------------------------- */
+@media (min-width: 830px) {
+    /*INDEX 
+-------------------------------------------------- */
+    .indexHeaderLeft{
+        padding-left:2vw ;
+    }
+	/*INDEX CATEGORY (LIST OF COURSE)
+-------------------------------------------------- */
+	.courseLinkContainer{
+		padding:5vh ;
+	}
+	.listCourseLogo{
+		display: block;
+	}
+	.courseTitle{
+		font-size:20px;
+	}
+	.headerCategoryCatchPhrase{
+		font-size:28px;
+		font-weight: 750;
+		margin-bottom: 70px;
+	}
+	/*COURSE
+-------------------------------------------------- */
+	.courseName{
+		font-size: 35px;
+	}
+	/*FOOTER
+-------------------------------------------------- */
+	footer i{
+		font-size: 28px;
+	}
+}	
+@media (min-width: 970px) {
+	/*GLOSSARY
+-------------------------------------------------- */
+	.symboleContainerImage{
+		display:block;
+	}
+	.symboleElectricity .symboleContainerImage{ 
+		background: linear-gradient(to right,rgba(121, 121, 29,.8), rgba(249,248,113,.8));	
+	}
+	.symboleMeca .symboleContainerImage{ 
+		background: linear-gradient(to right,rgba(82, 0, 49,.8), rgba(189, 0, 114,.8));	
+	}
+	.symboleGestion .symboleContainerImage{ 
+		background: linear-gradient(to right,rgba(126, 55, 39,.8), rgba(248, 107, 75,.8));	
+	}
+	.symbolePneu .symboleContainerImage{ 
+		background: linear-gradient(to right,rgba(122, 86, 36,.8), rgba(255, 179, 71,.8));	
+	}
+	.symboleAutomate .symboleContainerImage{ 
+		background: linear-gradient(to right,rgba(0, 78, 67,.8), rgba(0, 225, 191 ,.8));	
+	}
+	.symboleRepair .symboleContainerImage{ 
+		background: linear-gradient(to right,rgba(58, 1, 6 ,.8), rgba(164, 0, 15 ,.8));	
+	}
+}

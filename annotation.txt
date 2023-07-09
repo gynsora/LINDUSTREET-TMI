@@ -1,0 +1,46 @@
+TODO LIST
+
+- ajouter une page pour les formules electriques
+- ajouter une page pour les symbole du capteur en electriques (dans le symmboleData)
+- trouver les images ordinaire pour les symboles electriques (dans le symmboleData) 
+- ajouter un cours sur les temporisations
+- ajouter un cours sur les pont de diodes
+- ajouter un cours sur les detecteuer capteur (inductif ,capacitif, resistif)
+- ajouter un cours sur les courant continue et alternatif
+- ajouter un cours sur les thevenin norton
+- ajouter un cours sur les variateurs de vitesse
+
+- ajouter une page pour les formules pneumatiques
+
+- ajouter une page pour les formules hydrauliques
+- ajouter des cours de mécaniques (hydrauTrainingData)
+- ajouter du text pour les cours de mécaniques (hydrauTrainingData)
+
+
+- ajouter une page pour les formules mécaniques
+- ajouter des cours de mécaniques (mecaTrainingData)
+- ajouter du text pour les cours de mécaniques (mecaTrainingData)
+- ajouter un cours sur les gamme de démontage moteur
+- ajouter un cours sur les devissage en croix
+- ajouter un cours sur les symboles mécaniques
+- ajouter un cours sur les couples de sérrages
+
+- ajouter une page pour les symboles en automatisme
+- remplir le symboleData pour l'automatisme (symboleAutomatique)
+- ajouter du text pour les cours d'automatisme (automateTrainingData)
+- ajouter un cours sur l'api
+- ajouter un cours sur les grafcet
+- ajouter un cours sur les equations 
+
+- ajouter des cours de dépannages (repairTrainingData)
+- ajouter du text pour les cours de dépannages (repairTrainingData)
+
+- ajouter un cours sur la gestion de maintenance
+- ajouter un cours sur le pareto
+- ajouter un cours sur le 80 /20
+- ajouter un cours sur le ishikawa
+- ajouter un cours sur les 5 pourquoi 
+- ajouter un cours sur le QQOCP
+- ajouter un cours sur la GMAO
+
+- prendre des photo pour les symboles electrique , pneumatique, hydrauliques et mécaniques
